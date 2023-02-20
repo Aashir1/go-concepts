@@ -29,3 +29,7 @@ func main() {
 	fmt.Println("after explosion: ", player)
 
 }
+
+// why pointers?
+// 1. constantly change in state
+// 2. If we are working with big amount of data we need to copy that data again and again so its better to use pointers.
