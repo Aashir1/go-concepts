@@ -7,6 +7,10 @@ func main() {
 		changeDiapers()
 	} //its a problematic and we need to handle this
 
+	if err := bar(); err != nil {
+
+	}
+
 }
 
 // func Foo() (int, error) {
